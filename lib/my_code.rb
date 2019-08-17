@@ -45,3 +45,4 @@ def reduce_to_total(source_array, starting_point = 0)
       print "not zero"
     end
 end
+reduce_to_total(1,5)
