@@ -3,8 +3,9 @@ def map_to_negativize(source_array)
   #source_array.map { |a| p a*-1 }
   source_array = [1,2,3,4,5]
   i = 0
+  new_source_array = []
   while i < source_array.length do 
-    new_source_array = Array.new(source_array)
+    new_source_array.push = Array.new(source_array)
     new_source_array.each { |a| p a*-1 }
     i += 1
     p new_source_array
