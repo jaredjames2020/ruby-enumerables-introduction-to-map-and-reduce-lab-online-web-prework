@@ -33,12 +33,15 @@ def map_to_square(source_array)
     end
 end
 
-def reduce_to_total(starting_point = 0)
-      if starting_point == 0
+def reduce_to_total(source_array, starting_point = 0)
+  total_no_starting_point = []
+  total_with_starting_point = []
+  i = 0
+  starting_point = 0
+    if i < source_array.length && starting_point == 0
       #source_array.each {|a| total_no_starting_point()}
       print "zero"
-    elsif starting_point != 0
+    elsif i < source_array.length && starting_point != 0
       print "not zero"
     end
 end
-reduce_to_total(5)
