@@ -1,7 +1,7 @@
 # My Code here....
 def map_to_negativize(source_array)
   #source_array.map { |a| p a*-1 }
-  source_array = [1,2,3,4,5]
+  #source_array = [1,2,3,4,5]
   i = 0
   new_source_array = []
   if i < source_array.length 
