@@ -37,6 +37,11 @@ def reduce_to_total(source_array, starting_point = 0)
   total_no_starting_point = []
   total_with_starting_point = []
   i = 0
+  starting_point = 4
     if i < source_array.length && starting_point = 0
-      source_array.each {|a| total_no_starting_point()}
+      #source_array.each {|a| total_no_starting_point()}
+      print "zero"
+    elsif i < source_array.length && starting_point != 0
+      print "not zero"
+    end
 end
