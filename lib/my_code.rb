@@ -47,3 +47,4 @@ def reduce_to_total(source_array, starting_point = 0)
       p total_with_starting_point
     end
 end
+reduce_to_total([1,2,3], 1)
