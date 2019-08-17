@@ -38,5 +38,5 @@ def reduce_to_total(source_array, starting_point = 0)
   total_with_starting_point = []
   i = 0
     if i < source_array.length && starting_point = 0
-      source_array.each {|a| t}
+      source_array.each {|a| total_no_starting_point()}
 end
